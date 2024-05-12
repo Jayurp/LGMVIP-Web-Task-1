@@ -1,0 +1,37 @@
+.ParentBox
+{
+    border: solid 1px;
+    width: 40%;
+    padding: 2%;
+    margin: 2%;
+    background-color: skyblue;
+}
+
+.taskSection
+{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputBox
+{
+    margin: 2%;
+    font-size: 30px;
+    border-radius: 1rem;
+    padding: 2%;
+}
+
+.submitButton
+{
+    font-size: 30px;
+    border-radius: 1rem;
+    padding: 2%;
+}
+
+.submitButton:hover
+{
+    background-color: grey;
+    color: white;
+}

@@ -1,0 +1,50 @@
+.ListParent
+{
+    border: solid 1px;
+    background-color: aliceblue;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    border-radius: 1rem;
+    font-size: 30px;
+    font-family: sans-serif;
+    box-shadow: 0.5rem 0.5rem 1rem grey;
+}
+
+.checkButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.checkSVG {
+    width: 24px;
+    height: 24px;
+    stroke: #007bff;
+    transition: stroke 0.3s ease;
+}
+
+.checkButton:hover .checkSVG {
+    stroke: #0056b3;
+    filter: drop-shadow(0 0 5px black);
+}
+
+
+.deleteButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.deleteSVG {
+    width: 24px;
+    height: 24px;
+    fill: #007bff;
+    transition: fill 0.3s ease;
+}
+
+.deleteButton:hover .deleteSVG {
+    fill: #0056b3;
+    filter: drop-shadow(0 0 5px #0056b3);
+}
